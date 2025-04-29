@@ -1,0 +1,6 @@
+@use 'base/variables' as vars;
+
+body {
+  background-color: vars.$primary_color;
+
+}
