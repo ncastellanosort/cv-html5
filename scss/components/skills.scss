@@ -1,0 +1,23 @@
+@use '../base/variables' as vars;
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.skill-tag {
+  background-color: rgba(vars.$accent-color, 0.1);
+  color: vars.$accent-color;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: vars.$transition;
+  
+  &:hover {
+    background-color: rgba(vars.$accent-color, 0.2);
+    transform: translateY(-2px);
+  }
+}

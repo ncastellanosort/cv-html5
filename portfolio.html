@@ -1,59 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="css/main.css" />
-<title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
 </head>
 
 <body>
-  <header>
-    <h1>Nicolas Felipe Castellanos Ortega</h1>
-    <h2>Backend Developer</h2>
-  </header>
-  <main>
-    <section>
-      <h2>Summary</h2>
-      <p>5th Semester Software Engineering student with a strong interest in backend development. Knowledgeable in several programming languages, databases and frameworks, always learning new things. Motivated by the challenges of backend development and passionate about finding creative solutions to problems.</p>
-    </section>
-    <section>
-      <h2>Contact</h2>
-      <a href="https://www.linkedin.com/in/nicolas-castellanoss/" target="_blank">Linkedin</a>
-      <a href="https://github.com/ncastellanosort" target="_blank">Github</a>
-    </section>
-    <section>
-      <h2>Work Experience</h2>
-      <p>Developed multiple services using FastAPI, Vue.js, Go and Docker.</p>
-    </section>
-    <section>
-      <h2>Education</h2>
-      <p>Software Engineering Student at Manuela Beltran University</p>
-    </section>
-    <section>
-      <h2>Technical Skills</h2>
-      <span>Go</span>
-      <span>FastAPI</span>
-      <span>Docker</span>
-      <span>PostgreSQL</span>
-      <span>MongoDB</span>
-    </section>
-    <section>
-      <h2>Portfolio</h2>
-      <a href="https://nicolascaste.vercel.app/" target="_blank">link</a>
-    </section>
-    <section>
-      <h2>Certifications/cursos</h2>
-      <a href="https://www.linkedin.com/in/nicolas-castellanoss/details/certifications/" target="_blank">View</a>
-    </section>
-    <section>
-      <h2>Languages</h2>
-      <span>English</span>
-    </section>
-  </main>
-  <footer>
-    <h2>Made by Nicolas</h2>
-  </footer>
+  <div class="container">
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__title">Nicolas Felipe Castellanos Ortega</h1>
+        <h2 class="header__subtitle">Backend Developer</h2>
+      </div>
+    </header>
+    
+    <main class="main">
+      <section class="section">
+        <h2 class="section__title">Summary</h2>
+        <p class="section__text">5th Semester Software Engineering student with a strong interest in backend development. Knowledgeable in several programming languages, databases and frameworks, always learning new things. Motivated by the challenges of backend development and passionate about finding creative solutions to problems.</p>
+      </section>
+      
+      <section class="section">
+        <h2 class="section__title">Contact</h2>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/nicolas-castellanoss/" target="_blank" class="link">LinkedIn</a>
+          <a href="https://github.com/ncastellanosort" target="_blank" class="link">Github</a>
+        </div>
+      </section>
+      
+      <section class="section">
+        <h2 class="section__title">Work Experience</h2>
+        <p class="section__text">Developed multiple services using FastAPI, Vue.js, Go and Docker.</p>
+      </section>
+      
+      <section class="section">
+        <h2 class="section__title">Education</h2>
+        <p class="section__text">Software Engineering Student at Manuela Beltran University</p>
+      </section>
+      
+      <section class="section">
+        <h2 class="section__title">Technical Skills</h2>
+        <div class="skills">
+          <span class="skill-tag">Go</span>
+          <span class="skill-tag">FastAPI</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MongoDB</span>
+        </div>
+      </section>
+      
+      <section class="section">
+        <h2 class="section__title">Portfolio</h2>
+        <a href="https://nicolascaste.vercel.app/" target="_blank" class="link">View Portfolio</a>
+      </section>
+      
+      <section class="section">
+        <h2 class="section__title">Certifications</h2>
+        <a href="https://www.linkedin.com/in/nicolas-castellanoss/details/certifications/" target="_blank" class="link">View Certifications</a>
+      </section>
+      
+      <section class="section">
+        <h2 class="section__title">Languages</h2>
+        <div class="skills">
+          <span class="skill-tag">English</span>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <p class="footer__text">Made by Nicolas</p>
+    </footer>
+  </div>
 </body>
-
-</html> 
+</html>
