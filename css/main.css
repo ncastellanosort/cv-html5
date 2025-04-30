@@ -5,7 +5,7 @@
 }
 
 .link {
-  color: #3498db;
+  color: #2c3e50;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -37,7 +37,7 @@
 
 .skill-tag {
   background-color: rgba(52, 152, 219, 0.1);
-  color: #3498db;
+  color: #2c3e50;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   font-size: 0.9rem;
